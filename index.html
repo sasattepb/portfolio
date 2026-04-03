@@ -4,158 +4,278 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Prashant Sasatte | Principal Application Engineer</title>
-  <meta name="description" content="Principal Application Engineer specializing in cloud-native platforms, microservices, and enterprise modernization across AWS and OpenShift.">
+  <meta name="description" content="Principal Application Engineer — cloud-native platforms, microservices, and enterprise modernization across AWS and OpenShift. Based in Greater Chicago.">
+  <meta property="og:title" content="Prashant Sasatte | Principal Application Engineer">
+  <meta property="og:description" content="Cloud-native architecture, event-driven systems, and platform leadership at enterprise scale.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c1220'/%3E%3Ctext x='16' y='21' text-anchor='middle' fill='%2338bdf8' font-size='14' font-family='system-ui' font-weight='700'%3EPS%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <div class="brand">Prashant Sasatte</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li class="dropdown" id="portfolioDropdown">
-          <button class="dropbtn" aria-expanded="false" aria-controls="portfolioMenu">Technical Portfolio ▼</button>
-          <div class="dropdown-menu" id="portfolioMenu">
-            <a href="#case1">Multi-Factor Authentication Platform</a>
-            <a href="#case2">Customer Servicing Platform (CXVS)</a>
-            <a href="#case3">Payments Microservices Modernization</a>
-            <a href="#case4">Global Entitlement Event Processing</a>
-          </div>
-        </li>
-        <li><a href="#contact">Get In Touch</a></li>
-      </ul>
+  <a class="skip-link" href="#top">Skip to content</a>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--a" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--b" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">Prashant<span class="logo__dot">.</span></a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#portfolio">Impact</a>
+        <a href="#creds">Credentials</a>
+        <a class="nav__cta" href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </nav>
     </div>
   </header>
 
-  <section id="home" class="hero">
-    <div class="container">
-      <h1>Principal Application Engineer Driving Cloud-Native Platform Modernization at Enterprise Scale</h1>
-      <p>
-        I design and deliver secure, event-driven, microservices-based platforms across AWS and Red Hat OpenShift,
-        with a focus on reliability, performance, and release velocity.
-      </p>
-      <div class="cta">
-        <a class="btn primary" href="#portfolio">View Technical Portfolio</a>
-        <a class="btn" href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <main>
-    <section id="skills">
-      <div class="container">
-        <h2>Skills</h2>
-        <p class="lead">From architecture strategy to production operations, I bring deep hands-on expertise across modern backend engineering, cloud platforms, and high-performing delivery practices.</p>
-        <div class="grid">
-          <article class="card">
-            <h3>Cloud & Platform Engineering</h3>
-            <p>AWS, OpenShift, Kubernetes, Docker, Helm, PCF</p>
-          </article>
-          <article class="card">
-            <h3>Backend & APIs</h3>
-            <p>Java (8-21), Spring Boot, Spring Cloud, REST, GraphQL, SOAP</p>
-          </article>
-          <article class="card">
-            <h3>Event-Driven Integration</h3>
-            <p>Apache Kafka, Solace JMS, distributed and asynchronous system design</p>
-          </article>
-          <article class="card">
-            <h3>Security & Identity</h3>
-            <p>OAuth2, Okta, secure service-to-service integration patterns</p>
-          </article>
-          <article class="card">
-            <h3>Observability & Reliability</h3>
-            <p>Datadog, ELK/Kibana, AppDynamics, Splunk, SRE-oriented operations</p>
-          </article>
-          <article class="card">
-            <h3>DevOps & Delivery</h3>
-            <p>Jenkins, Git, Gradle, Maven, Nexus, automated quality gates and promotions</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="container">
-        <h2>About</h2>
-        <p class="lead">
-          I am a Principal Application Engineer with over 20 years of experience building cloud-native, event-driven
-          platforms for enterprise financial services. I specialize in transforming legacy environments into secure,
-          scalable, high-availability systems aligned with measurable business outcomes.
-        </p>
-        <div class="grid">
-          <article class="card">
-            <h3>Professional Focus</h3>
-            <p>Architecture leadership, backend platform engineering, modernization strategy, and enterprise delivery execution.</p>
-          </article>
-          <article class="card">
-            <h3>Engineering Philosophy</h3>
-            <p>Design for operability, optimize for outcomes, automate for quality, and build systems teams can evolve confidently.</p>
-          </article>
-          <article class="card">
-            <h3>Leadership & Collaboration</h3>
-            <p>Full SDLC ownership, cross-functional design reviews, Agile execution, and mentoring across onshore/offshore teams.</p>
-          </article>
-        </div>
-        <div class="metrics">
-          <div class="metric"><strong>20+ years</strong>Enterprise application engineering experience</div>
-          <div class="metric"><strong>4 certifications</strong>AWS, AI Practitioner, Python, Oracle Java</div>
-          <div class="metric"><strong>Multi-domain</strong>Credit cards, deposits, loans, payments</div>
-          <div class="metric"><strong>Principal-level</strong>Architecture, quality, and delivery ownership</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio">
-      <div class="container">
-        <h2>Technical Portfolio</h2>
-        <p class="lead">Selected initiatives where I led architecture, modernization, and platform delivery with measurable enterprise impact.</p>
-        <div class="grid">
-          <article class="card" id="case1">
-            <h3>Multi-Factor Authentication Platform Transformation</h3>
-            <p>Led reusable authentication services supporting OTP, Push, XID, and AutoDoc across multiple lines of business.</p>
-          </article>
-          <article class="card" id="case2">
-            <h3>Cloud-Native Customer Servicing Platform (CXVS)</h3>
-            <p>Engineered scalable backend APIs and React-based interfaces to improve field-agent productivity and customer servicing quality.</p>
-          </article>
-          <article class="card" id="case3">
-            <h3>Payments Platform Modernization to Microservices</h3>
-            <p>Re-architected business-critical legacy middleware into secure REST-based microservices to increase reliability and delivery velocity.</p>
-          </article>
-          <article class="card" id="case4">
-            <h3>Event-Driven Global Entitlement Processing</h3>
-            <p>Built standards-based event transformation and secure distribution pipelines for enterprise payment ecosystems.</p>
-          </article>
-        </div>
-        <p style="margin-top:16px;color:var(--muted);">Use the <strong>Technical Portfolio</strong> menu in the top navigation to jump directly to case studies.</p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <h2>Get In Touch</h2>
-        <p class="lead">For opportunities and professional discussions, please connect with me on LinkedIn.</p>
-        <div class="card">
-          <h3>LinkedIn Profile</h3>
-          <p>
-            Reach out directly via LinkedIn:
-            <a href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener">
-              linkedin.com/in/prashant-sasatte-81b0776
-            </a>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Principal Application Engineer · Discover Financial Services</p>
+          <h1 class="hero__title reveal reveal--delay-1">
+            Enterprise platforms with <em>edge</em>—built for scale, secured for trust.
+          </h1>
+          <p class="hero__lead reveal reveal--delay-2">
+            I architect cloud-native, event-driven systems on <strong>AWS</strong> and <strong>OpenShift</strong>,
+            modernize what no longer fits, and ship with observability and CI/CD discipline from day one.
           </p>
-          <div class="cta">
-            <a class="btn primary" href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a class="btn btn--primary" href="#journey">Career journey</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
           </div>
+          <dl class="hero__meta reveal reveal--delay-4">
+            <div><dt>Location</dt><dd>Greater Chicago · Deerfield, IL</dd></div>
+            <div><dt>Focus</dt><dd>Fraud auth · CX platforms · Payments · Event pipelines</dd></div>
+          </dl>
+        </div>
+        <aside class="hero__panel reveal reveal--delay-2" aria-label="Highlights">
+          <div class="stat-card">
+            <span class="stat-card__value">20+</span>
+            <span class="stat-card__label">Years shipping enterprise software</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value">AWS</span>
+            <span class="stat-card__label">Solutions Architect &amp; AI Practitioner certified</span>
+          </div>
+          <div class="stat-card stat-card--accent">
+            <span class="stat-card__kicker">Currently</span>
+            <span class="stat-card__label">Fraud Authentication &amp; Authorization (FAA) platform leadership</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section--tight">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__tag">About</span>
+          <h2 class="section__title">A platform engineer at heart—<span class="muted">with a bias for outcomes.</span></h2>
+        </header>
+        <div class="about__layout">
+          <div class="prose reveal">
+            <p>
+              I am a <strong>Principal Application Engineer</strong> specializing in cloud-native, event-driven, and microservices-based platforms.
+              My work sits at the intersection of <strong>architecture</strong>, <strong>security</strong>, and <strong>delivery velocity</strong>: modernizing monoliths,
+              standing up authentication and servicing platforms, and making production behavior visible before users feel pain.
+            </p>
+            <p>
+              I am <strong>AWS Solutions Architect – Associate</strong> and <strong>AWS AI Practitioner</strong> certified, with hands-on experience building
+              highly available systems in regulated environments. I am known for clear design artifacts, collaborative design reviews,
+              mentoring engineers across time zones, and aligning technical direction with measurable business and risk outcomes.
+            </p>
+          </div>
+          <ul class="pill-list reveal">
+            <li>Architecture leadership</li>
+            <li>SRE-minded observability</li>
+            <li>OAuth2 / Okta integrations</li>
+            <li>Kafka &amp; event-driven design</li>
+            <li>Agile delivery at scale</li>
+            <li>Onshore / offshore coordination</li>
+          </ul>
         </div>
       </div>
     </section>
 
+    <section id="journey" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__tag">Career journey</span>
+          <h2 class="section__title">From integration projects to <span class="muted">principal-level platform ownership.</span></h2>
+          <p class="section__lead">A condensed path across financial services, healthcare, and public-sector systems—always with reliability and clarity in mind.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <header class="timeline__head">
+                <span class="timeline__org">Discover Financial Services</span>
+                <span class="timeline__range">2021 — Present · Riverwoods, IL</span>
+              </header>
+              <div class="timeline__roles">
+                <article>
+                  <h3>Principal Application Engineer <span class="timeline__badge">2025 — Present</span></h3>
+                  <p><strong>Fraud Authentication &amp; Authorization (FAA)</strong> — Led cloud-native authentication services for identity verification across Credit Cards, Deposits, and Personal Loans. Delivered multi-factor capabilities (OTP, Push, XID, AutoDoc), resilient microservices APIs, CI/CD with automated tests and security scans, and Datadog / ELK observability. Full SDLC ownership from design through production support.</p>
+                </article>
+                <article>
+                  <h3>Lead Software Engineer / Application Engineer <span class="timeline__badge">2021 — 2024</span></h3>
+                  <p><strong>Customer Experience Validation Services (CXVS)</strong> — Built a cloud-native servicing platform for field agents: microservices APIs, React/Redux UI patterns, governed deployments, and strong collaboration with business and QA to accelerate quality releases.</p>
+                </article>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <header class="timeline__head">
+                <span class="timeline__org">Cognizant Technology Solutions</span>
+                <span class="timeline__range">2009 — 2020 · Chicago, IL</span>
+              </header>
+              <p class="timeline__intro">Lead Java Developer engagements across U.S. Bank, Northern Trust, Shire, CBOE, and JPMorgan Chase—payments modernization, global entitlement processing, regulated digital properties, and core banking tooling.</p>
+              <ul class="timeline__bullets">
+                <li><strong>U.S. Bank — DIY Payments:</strong> Re-architected legacy middleware into REST microservices; cloud-ready integration patterns and CI/CD.</li>
+                <li><strong>Northern Trust — Global Entitlement Hub:</strong> Event processing from DTCC/FED formats to ISO messages; Spring Boot microservices, Solace JMS, OAuth2.</li>
+                <li><strong>Shire / Baxter — Digital Factory:</strong> Marketing platforms for therapeutic areas; Spring Boot, JSP, Oracle, regulated Waterfall delivery.</li>
+                <li><strong>CBOE:</strong> Integration &amp; performance testing platform for mission-critical command systems.</li>
+                <li><strong>JPMorgan Chase:</strong> Client audit confirmations (CAC); collateral exceptions workflow (CEW).</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <header class="timeline__head">
+                <span class="timeline__org">CMC Limited (TATA Enterprise)</span>
+                <span class="timeline__range">2005 — 2007 · Mumbai, India</span>
+              </header>
+              <p><strong>MSEB IMIS:</strong> Java/J2EE integration for Maharashtra State Electricity Board—centralized data capture, WebLogic deployment, and end-to-end module testing.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="expertise" class="section section--dim">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__tag">Expertise</span>
+          <h2 class="section__title">Stack depth that matches <span class="muted">the problems enterprises actually have.</span></h2>
+        </header>
+        <div class="bento">
+          <article class="bento__card bento__card--wide reveal">
+            <h3>Cloud &amp; platform</h3>
+            <p>AWS (EC2, S3, RDS, DynamoDB, Lambda, API Gateway, IAM, EKS/ECS, CloudFormation, CloudWatch, X-Ray), OpenShift, Kubernetes, Docker, Helm, PCF.</p>
+          </article>
+          <article class="bento__card reveal">
+            <h3>Backend</h3>
+            <p>Java 8–21, Spring Boot 3.x, Spring Cloud, Spring Batch, Hibernate, Scala, Akka HTTP.</p>
+          </article>
+          <article class="bento__card reveal">
+            <h3>Frontend</h3>
+            <p>React, Redux, AngularJS, JavaScript, HTML, JSP.</p>
+          </article>
+          <article class="bento__card reveal">
+            <h3>Integration</h3>
+            <p>Kafka, Solace JMS, REST, SOAP, GraphQL.</p>
+          </article>
+          <article class="bento__card reveal">
+            <h3>Security &amp; observability</h3>
+            <p>OAuth2, Okta, Datadog, ELK/Kibana, AppDynamics, Splunk, Instana.</p>
+          </article>
+          <article class="bento__card reveal">
+            <h3>Delivery</h3>
+            <p>Jenkins, Git, Gradle, Maven, Nexus, Trident; Oracle, PostgreSQL.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__tag">Selected impact</span>
+          <h2 class="section__title">Initiatives where architecture met <span class="muted">measurable outcomes.</span></h2>
+        </header>
+        <div class="cards-grid">
+          <article class="impact-card reveal" id="case-faa">
+            <span class="impact-card__num">01</span>
+            <h3>Fraud Authentication &amp; Authorization</h3>
+            <p>Reusable authentication services and fit-for-purpose MFA across lines of business—improving fraud prevention while keeping customer journeys smooth.</p>
+          </article>
+          <article class="impact-card reveal" id="case-cxvs">
+            <span class="impact-card__num">02</span>
+            <h3>CXVS servicing platform</h3>
+            <p>Cloud-native APIs and React-based experiences so field agents resolve customer needs faster with reliable, compliant data access.</p>
+          </article>
+          <article class="impact-card reveal" id="case-payments">
+            <span class="impact-card__num">03</span>
+            <h3>Payments modernization</h3>
+            <p>From brittle middleware to REST microservices—better reliability, extensibility, and deployment cadence for critical payment flows.</p>
+          </article>
+          <article class="impact-card reveal" id="case-geh">
+            <span class="impact-card__num">04</span>
+            <h3>Global Entitlement Hub</h3>
+            <p>Event transformation and secure distribution pipelines—standards-based interoperability across the enterprise payment ecosystem.</p>
+          </article>
+        </div>
+        <p class="section__note reveal">Additional contributions include OpenShift CI/CD standardization, disclosure playback for faster issue resolution, and enterprise migration to Spring Boot 3 and Java 21.</p>
+      </div>
+    </section>
+
+    <section id="creds" class="section section--dim">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__tag">Credentials &amp; education</span>
+          <h2 class="section__title">Continuous learning <span class="muted">in public cloud and modern runtimes.</span></h2>
+        </header>
+        <div class="creds-grid">
+          <ul class="cred-list reveal">
+            <li>AWS Certified Solutions Architect – Associate</li>
+            <li>AWS Certified AI Practitioner</li>
+            <li>PCEP™ — Certified Entry-Level Python Programmer</li>
+            <li>Oracle Certified Java Programmer</li>
+          </ul>
+          <ul class="cred-list reveal">
+            <li><strong>B.E., Information Technology</strong> — SRTM University, India</li>
+            <li><strong>Diploma, Computer Engineering</strong> — Bombay Technical Education, India</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta-band">
+      <div class="container cta-band__inner">
+        <div class="cta-band__text reveal">
+          <h2 class="cta-band__title">Let’s talk platforms, modernization, or what’s next.</h2>
+          <p class="cta-band__lead">For opportunities and professional dialogue, the best channel is LinkedIn—messages go straight through.</p>
+        </div>
+        <div class="cta-band__actions reveal">
+          <a class="btn btn--primary btn--lg" href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener noreferrer">View LinkedIn profile</a>
+          <p class="cta-band__link">
+            <a href="https://www.linkedin.com/in/prashant-sasatte-81b0776/" target="_blank" rel="noopener noreferrer">linkedin.com/in/prashant-sasatte-81b0776</a>
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="container">© <span id="year"></span> Prashant Sasatte - Principal Application Engineer</div>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Prashant Sasatte</span>
+      <span class="footer__mono">Principal Application Engineer</span>
+    </div>
   </footer>
 
   <script src="script.js"></script>
